@@ -1,0 +1,7 @@
+# .github/metadata.yaml
+description: "Parity (the Z₂ even/odd primitive) for Swift."
+topics:
+  - primitives
+  - parity
+  - type-safety
+homepage: "https://swift-institute.org"
