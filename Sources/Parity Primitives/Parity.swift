@@ -39,7 +39,7 @@ extension Parity {
     /// Opposite parity (even↔odd).
     @inlinable
     public var opposite: Parity {
-        Parity.opposite(of: self)
+        Self.opposite(of: self)
     }
 
     /// Returns the opposite parity.
@@ -64,7 +64,7 @@ extension Parity {
     /// Parity of adding two values with these parities (e+e=e, o+o=e, e+o=o).
     @inlinable
     public func adding(_ other: Parity) -> Parity {
-        Parity.adding(self, other)
+        Self.adding(self, other)
     }
 
     /// Parity of multiplying two values with these parities (o×o=o, else e).
@@ -79,7 +79,7 @@ extension Parity {
     /// Parity of multiplying two values with these parities (o×o=o, else e).
     @inlinable
     public func multiplying(_ other: Parity) -> Parity {
-        Parity.multiplying(self, other)
+        Self.multiplying(self, other)
     }
 }
 

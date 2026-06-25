@@ -22,7 +22,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(path: "../swift-pair-primitives"),
+        .package(url: "https://github.com/swift-primitives/swift-pair-primitives.git", branch: "main"),
     ],
     targets: [
         .target(

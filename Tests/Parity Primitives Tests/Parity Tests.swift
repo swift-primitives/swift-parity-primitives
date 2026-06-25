@@ -1,7 +1,7 @@
 // Parity Tests.swift
 
-import Parity_Primitives_Test_Support
 import Pair_Primitives
+import Parity_Primitives_Test_Support
 import Testing
 
 @Suite
